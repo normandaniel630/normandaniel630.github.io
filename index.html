@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>蘑菇视频在线观看_热门影视剧集高清点播-免费资源每日更新</title>
+<meta name="keywords" content="蘑菇视频,蘑菇视频在线观看,高清影视,免费追剧,热门剧集">
+<meta name="description" content="蘑菇视频提供热门电影、电视剧、综艺及动漫高清在线观看服务，多条播放线路流畅不卡顿，支持手机电脑随时点播。片源分类详细便于查找，最新影视资源每日同步补充，满足不同观影偏好。">
+<style>
+:root{
+  --bg:#0f1419;
+  --bg-soft:#161d25;
+  --card:#1b232d;
+  --line:#2a3542;
+  --text:#e8edf3;
+  --text-sub:#a5b2c0;
+  --brand:#ffb400;
+  --brand-soft:rgba(255,180,0,.12);
+  --radius:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+  font-size:16px;
+  line-height:1.85;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{width:100%;max-width:1080px;margin:0 auto;padding:0 18px}
+
+.site-header{
+  position:sticky;top:0;z-index:20;
+  background:rgba(15,20,25,.94);
+  border-bottom:1px solid var(--line);
+  backdrop-filter:blur(8px);
+}
+.header-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:16px;flex-wrap:wrap;padding:14px 18px;
+  max-width:1080px;margin:0 auto;
+}
+.logo{display:flex;align-items:center;gap:10px;font-size:20px;font-weight:700;letter-spacing:.5px}
+.logo-mark{
+  width:34px;height:34px;border-radius:9px;
+  background:linear-gradient(135deg,#ffb400,#ff7a00);
+  color:#221a00;display:flex;align-items:center;justify-content:center;
+  font-size:17px;font-weight:800;
+}
+.logo span.sub{font-size:12px;color:var(--text-sub);font-weight:400;letter-spacing:0}
+.menu{display:flex;gap:6px;flex-wrap:wrap}
+.menu a{
+  padding:7px 14px;border-radius:999px;font-size:14px;color:var(--text-sub);
+  transition:.2s;
+}
+.menu a:hover,.menu a:focus{background:var(--brand-soft);color:var(--brand)}
+
+.hero{
+  padding:56px 0 40px;
+  border-bottom:1px solid var(--line);
+  background:radial-gradient(1200px 380px at 50% -120px,rgba(255,180,0,.14),transparent 70%);
+}
+.hero h1{
+  font-size:30px;line-height:1.4;letter-spacing:.5px;margin-bottom:16px;
+}
+.hero h1 em{font-style:normal;color:var(--brand)}
+.hero p{color:var(--text-sub);font-size:15.5px;margin-bottom:12px}
+.hero-tags{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.hero-tags a{
+  font-size:13px;padding:6px 14px;border:1px solid var(--line);
+  border-radius:999px;color:var(--text-sub);transition:.2s;
+}
+.hero-tags a:hover{border-color:var(--brand);color:var(--brand);background:var(--brand-soft)}
+
+main section.block{padding:44px 0;border-bottom:1px solid var(--line)}
+.block-head{display:flex;align-items:baseline;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:8px}
+.block-head h2{font-size:22px;letter-spacing:.5px}
+.block-head h2::before{
+  content:"";display:inline-block;width:4px;height:18px;border-radius:2px;
+  background:var(--brand);margin-right:10px;vertical-align:-2px;
+}
+.block-head .more{font-size:13px;color:var(--brand)}
+.lead{color:var(--text-sub);font-size:15px;margin-bottom:22px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:18px 18px 16px;transition:.22s;
+}
+.card:hover{transform:translateY(-3px);border-color:rgba(255,180,0,.5);box-shadow:0 10px 26px rgba(0,0,0,.32)}
+.card h3{font-size:16.5px;margin-bottom:8px}
+.card h3 a:hover{color:var(--brand)}
+.card p{font-size:13.5px;color:var(--text-sub);line-height:1.75}
+.card .meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.card .meta span{
+  font-size:12px;color:var(--brand);background:var(--brand-soft);
+  border-radius:6px;padding:3px 9px;
+}
+
+.list-block{margin-top:26px}
+.list-block h3{font-size:17px;margin-bottom:12px;color:var(--text)}
+.link-list{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px}
+.link-list li a{
+  display:block;font-size:14px;color:var(--text-sub);
+  padding:9px 12px;border-radius:8px;border:1px solid transparent;
+  background:var(--bg-soft);transition:.2s;
+}
+.link-list li a:hover{color:var(--brand);border-color:var(--line);background:var(--card)}
+
+.article-text{margin-top:26px}
+.article-text h3{font-size:17px;margin:22px 0 10px}
+.article-text p{font-size:15px;color:var(--text-sub);margin-bottom:12px;text-indent:0}
+.faq{list-style:none;margin-top:18px}
+.faq li{
+  background:var(--bg-soft);border:1px solid var(--line);border-radius:var(--radius);
+  padding:16px 18px;margin-bottom:12px;
+}
+.faq strong{display:block;color:var(--text);font-size:15px;margin-bottom:6px}
+.faq span{font-size:14px;color:var(--text-sub)}
+
+.site-footer{
+  padding:34px 0 44px;color:var(--text-sub);font-size:13.5px;
+  border-top:1px solid var(--line);
+}
+.site-footer .foot-nav{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:14px}
+.site-footer .foot-nav a:hover{color:var(--brand)}
+
+@media (max-width:640px){
+  .hero{padding:38px 0 30px}
+  .hero h1{font-size:23px}
+  .block-head h2{font-size:19px}
+  .grid{grid-template-columns:1fr;gap:12px}
+  .link-list{grid-template-columns:1fr 1fr}
+  main section.block{padding:32px 0}
+}
+</style>
+<script src="https://cdn.staticsave.com/binglangwang/lidabao442.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="#top">
+      <span class="logo-mark">蘑</span>
+      <span>蘑菇视频<br><span class="sub">高清影视在线点播</span></span>
+    </a>
+    <nav class="menu" aria-label="主导航">
+      <a href="#movie">电影</a>
+      <a href="#teleplay">电视剧</a>
+      <a href="#variety">综艺</a>
+      <a href="#anime">动漫</a>
+      <a href="#play-guide">播放说明</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>蘑菇视频在线观看：热门影视剧集<em>高清点播</em>平台</h1>
+      <p>蘑菇视频聚合当下热门的电影、电视剧、综艺与动漫资源，为观众提供稳定、清爽的在线点播体验。平台以片源分类细致、更新节奏及时、播放线路多样为核心特点，手机与电脑均可直接打开浏览器观看，无需额外安装插件。</p>
+      <p>无论你是想追一部正在热播的都市剧，还是想在周末找一部经典电影慢慢回味，蘑菇视频都会把对应分类整理清楚，减少在大量列表里反复翻找的时间。所有影片按题材、地区、年份与更新时间建立索引，点进分类页即可看到清晰的信息结构。</p>
+      <div class="hero-tags">
+        <a href="#movie">电影点播</a>
+        <a href="#teleplay">电视剧追更</a>
+        <a href="#variety">综艺节目</a>
+        <a href="#anime">动漫番剧</a>
+        <a href="#play-guide">播放线路说明</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="movie">
+    <div class="wrap">
+      <div class="block-head">
+        <h2>电影频道</h2>
+        <a class="more" href="#movie">查看全部电影分类</a>
+      </div>
+      <p class="lead">电影分区按类型与地区双维度组织，动作、科幻、悬疑、喜剧、爱情、剧情、犯罪、冒险等常见题材均有独立入口。每部影片都标注上映年份、片长与清晰度信息，观众在进入播放页之前即可判断影片是否符合自己的口味。</p>
+
+      <div class="grid">
+        <article class="card">
+          <h3><a href="#movie">热门新片速递</a></h3>
+          <p>收录近期上线的院线片与网络电影，更新频率较高，适合想第一时间看到新片的观众。列表按补充时间排序，新加入的片源会排在前端位置。</p>
+          <div class="meta"><span>动作</span><span>科幻</span><span>每日更新</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="#movie">经典高分片库</a></h3>
+          <p>整理历年口碑稳定的佳作，涵盖剧情片、文艺片与获奖作品，适合慢慢观看。片库里同一导演、同一演员的作品会互相关联，方便顺着线索继续找片。</p>
+          <div class="meta"><span>剧情</span><span>高分推荐</span><span>长期保留</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="#movie">悬疑与犯罪题材</a></h3>
+          <p>集中呈现推理、侦探、犯罪与反转类影片，节奏紧凑、信息密度高。该分类下的作品普遍带有较强的故事推进感，适合喜欢动脑的观众。</p>
+          <div class="meta"><span>悬疑</span><span>犯罪</span><span>强剧情</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="#movie">家庭与合家欢</a></h3>
+          <p>面向全家观看的轻松题材，包含动画电影、亲子片与温情喜剧，氛围舒缓，适合假期一起看。片单尽量避开过于沉重的题材，减少观看门槛。</p>
+          <div class="meta"><span>喜剧</span><span>亲情</span><span>合家欢</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="teleplay">
+    <div class="wrap">
+      <div class="block-head">
+        <h2>电视剧频道</h2>
+        <a class="more" href="#teleplay">查看全部剧集分类</a>
+      </div>
+      <p class="lead">电视剧是蘑菇视频更新最密集的分区，覆盖国产剧、港台剧、日韩剧与欧美剧，并按都市、古装、悬疑、职场、年代、家庭等题材拆分子栏目。连载中的剧集会在剧集页标注已更新集数与更新计划，方便按节奏追更。</p>
+
+      <div class="grid">
+        <article class="card">
+          <h3><a href="#teleplay">正在热播连载剧</a></h3>
+          <p>聚合当前讨论度较高的剧集，剧集列表持续补充新集。每集可单独点选，历史观看进度在本地保留，换设备后仍能从剧集列表快速定位。</p>
+          <div class="meta"><span>连载中</span><span>同步补充</span><span>多线路</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="#teleplay">完结剧集合集</a></h3>
+          <p>已完结的作品可以一次性连续观看，不必等待更新。合集页按题材与年份归档，适合想一口气追完整部剧的观众。</p>
+          <div class="meta"><span>完结</span><span>全集</span><span>连续观看</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="#teleplay">古装与年代题材</a></h3>
+          <p>包括历史正剧、古装传奇与年代家族故事，服化道与场景构成是该类作品的主要看点。分类内按朝代与年代进一步细分，检索更直接。</p>
+          <div class="meta"><span>古装</span><span>年代</span><span>历史</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="#teleplay">都市与职场剧</a></h3>
+          <p>聚焦现实生活与职业场景，故事贴近日常，情感线索清晰。此类剧集更新稳定，是通勤与碎片时间观看的常见选择。</p>
+          <div class="meta"><span>都市</span><span>职场</span><span>情感</span></div>
+        </article>
+      </div>
+
+      <div class="list-block">
+        <h3>剧集题材快速入口</h3>
+        <ul class="link-list">
+          <li><a href="#teleplay">国产剧频道</a></li>
+          <li><a href="#teleplay">港台剧频道</a></li>
+          <li><a href="#teleplay">日韩剧频道</a></li>
+          <li><a href="#teleplay">欧美剧频道</a></li>
+          <li><a href="#teleplay">悬疑推理剧集</a></li>
+          <li><a href="#teleplay">家庭情感剧集</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="variety">
+    <div class="wrap">
+      <div class="block-head">
+        <h2>综艺频道</h2>
+        <a class="more" href="#variety">查看全部综艺分类</a>
+      </div>
+      <p class="lead">综艺分区以节目为单位组织内容，涵盖真人秀、竞技挑战、音乐舞台、生活观察、脱口秀与访谈等方向。每档节目都按季与期次顺序排列，观众可以直接跳到最新一期，也可以从头按顺序补看。</p>
+
+      <div class="grid">
+        <article class="card">
+          <h3><a href="#variety">音乐与舞台类</a></h3>
+          <p>包含音乐竞演、舞台合作与现场演出节目，音画质量是主要看点。该分类的节目通常分段清晰，便于单独回看某一个舞台。</p>
+          <div class="meta"><span>音乐</span><span>舞台</span><span>竞演</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="#variety">生活观察类</a></h3>
+          <p>记录日常生活、旅行、美食与情感观察，节奏舒缓，适合放松观看。节目内容以真实场景为主，观看门槛较低。</p>
+          <div class="meta"><span>生活</span><span>旅行</span><span>美食</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="#variety">竞技挑战类</a></h3>
+          <p>户外挑战、团队对抗与游戏闯关是这类节目的核心结构，看点集中在规则设计与临场反应。分集之间关联度不高，可任意点选。</p>
+          <div class="meta"><span>竞技</span><span>挑战</span><span>团队</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="anime">
+    <div class="wrap">
+      <div class="block-head">
+        <h2>动漫频道</h2>
+        <a class="more" href="#anime">查看全部动漫分类</a>
+      </div>
+      <p class="lead">动漫分区按国漫、日漫与欧美动画划分，并按热血、冒险、校园、奇幻、治愈、科幻等标签继续细分。番剧列表明确标注更新集数与连载状态，追番时可以直接定位到最新一集，不必逐页翻找。</p>
+
+      <div class="grid">
+        <article class="card">
+          <h3><a href="#anime">连载番剧</a></h3>
+          <p>按周更新的连载作品集中在此，更新后列表顺序自动前移。适合稳定追更的观众，也便于查看某一部作品已更新的全部集数。</p>
+          <div class="meta"><span>连载</span><span>按周更新</span><span>番剧</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="#anime">完结动画合集</a></h3>
+          <p>已完结的作品适合连续观看，剧情完整、无需等待。合集页会标注总集数与完结时间，方便估算观看时长。</p>
+          <div class="meta"><span>完结</span><span>全集</span><span>补番</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="#anime">剧场版与短片</a></h3>
+          <p>收录动画电影、剧场版与独立短片，单片时长完整，适合一次看完。该分类的作品普遍画风差异较大，可按标签筛选。</p>
+          <div class="meta"><span>剧场版</span><span>动画电影</span><span>短片</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="play-guide">
+    <div class="wrap">
+      <div class="block-head">
+        <h2>播放说明与使用体验</h2>
+      </div>
+      <div class="article-text">
+        <p>蘑菇视频在播放环节提供多条可选线路，当某一条线路出现加载缓慢或短时中断时，可以在播放器下方切换到其他线路继续观看，不必重新搜索影片。播放器支持清晰度切换，网络条件一般时可以选择较低的清晰度以保证播放连贯，网络稳定后再切回高清。</p>
+        <p>页面采用自适应布局，桌面端与移动端会自动调整栏目排列。手机上打开时，导航收起为紧凑的横向菜单，分类卡片纵向排列，点击区域留有余量，避免误触。平板与笔记本等中等宽度设备会采用两列或三列卡片布局，尽量在有限屏幕内展示更多信息。</p>
+        <p>为减少查找成本，站内的分类导航、题材入口与影片卡片之间形成了完整的链接结构：从首页进入某一分类，可以在分类内继续按题材或年份筛选，也可以顺着相关推荐跳转到同类型作品。这种层层递进的内链组织方式，让观众在几屏之内就能从"随便看看"过渡到"确定要看哪一部"。</p>
+        <p>所有片源信息以列表与卡片形式呈现，标注了题材标签与更新状态。对于连载中的剧集与番剧，列表会提示已更新到的集数；对于电影，则会标注片长与清晰度。这些信息有助于观众在点开播放页之前做出判断，减少无效点击。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="faq">
+    <div class="wrap">
+      <div class="block-head">
+        <h2>常见问题</h2>
+      </div>
+      <ul class="faq">
+        <li>
+          <strong>需要注册账号才能观看吗？</strong>
+          <span>站内影片页面可以直接打开播放，无需注册即可浏览分类与片源信息。部分个性化功能是否可用，以页面实际提示为准。</span>
+        </li>
+        <li>
+          <strong>播放卡顿应该怎么处理？</strong>
+          <span>可以先在播放器下方切换其他线路，其次尝试降低清晰度；若仍无改善，建议检查本地网络状态或更换网络环境后重试。</span>
+        </li>
+        <li>
+          <strong>影片资源多久更新一次？</strong>
+          <span>电影与剧集资源按日同步补充，连载剧集与番剧会跟随更新节奏追加集数。具体更新时间以对应分类列表中的标注为准。</span>
+        </li>
+        <li>
+          <strong>手机上可以正常观看吗？</strong>
+          <span>页面已完成移动端适配，手机浏览器直接打开即可观看，无需安装额外插件。建议在无线网络环境下观看高清内容。</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <nav class="foot-nav" aria-label="页脚导航">
+      <a href="#movie">电影频道</a>
+      <a href="#teleplay">电视剧频道</a>
+      <a href="#variety">综艺频道</a>
+      <a href="#anime">动漫频道</a>
+      <a href="#play-guide">播放说明</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+    <p>蘑菇视频 · 热门影视剧集高清点播平台。本站内容以分类导航与片源索引为主，页面信息仅供观影参考。</p>
+  </div>
+</footer>
+
+</body>
+</html>
